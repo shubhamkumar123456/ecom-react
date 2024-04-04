@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaCartPlus } from "react-icons/fa";
+import { MdOutlineShoppingCart } from "react-icons/md";
 import { Link, useNavigate } from 'react-router-dom';
 
 const Navbar = (props) => {
@@ -35,7 +35,7 @@ const Navbar = (props) => {
                 <Link className="nav-link  text-white">Logout</Link>
               </li>}
               {props.Logins && <li className="nav-item">
-                <Link className="nav-link  text-white" to='/CartPage'><FaCartPlus style={{ fontSize: '30px' }} />
+                <Link className="nav-link  text-white" to='/CartPage'><MdOutlineShoppingCart style={{ fontSize: '30px' }} />
                   {arr.length}</Link>
               </li>}
             </ul>

@@ -33,3 +33,16 @@
     transform: rotate(360deg);
   }
 } */
+.Li:hover{
+  background-color: rgba(28, 79, 28, 0.909);
+  cursor: pointer;
+  color: white;
+  transition: all ease 0.5s;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .category{
+    display: none!important;
+  }
+}
